@@ -5,5 +5,5 @@
 	"ports": {
 		"dns": 53
 	},
-	"recursor": "8.8.8.8"
+	"recursor": "10.0.0.2"
 }
