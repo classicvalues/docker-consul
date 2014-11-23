@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readonly IMAGE="progrium/consul"
+readonly IMAGE="driftyco/consul"
 readonly EXPECT="${EXPECT:-3}"
 
 cmd-run() {
