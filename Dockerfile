@@ -1,5 +1,5 @@
 FROM 		progrium/busybox
-MAINTAINER 	Jeff Lindsay <progrium@gmail.com>
+MAINTAINER 	Drifty
 
 ADD https://dl.bintray.com/mitchellh/consul/0.4.1_linux_amd64.zip /tmp/consul.zip
 RUN cd /bin && unzip /tmp/consul.zip && chmod +x /bin/consul && rm /tmp/consul.zip
